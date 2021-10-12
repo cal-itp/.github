@@ -1,0 +1,7 @@
+{
+  "name": "Dependabot Jekyll Differ",
+  "description": "Automatically add a comment to PRs created by Dependabot about differences in rendered Jekyll websites",
+  "iconName": "cal-itp-logo",
+  "categories": ["Liquid"],
+  "filePatterns": ["^_config.yml"]
+}
