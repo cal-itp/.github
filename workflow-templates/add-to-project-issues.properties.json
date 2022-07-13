@@ -3,7 +3,6 @@
   "description": "Automatically add new and transferred issues to a project in Cal-ITP's GitHub org",
   "iconName": "cal-itp-logo",
   "categories": [
-    "GitHub",
-    "Project management"
+    "Automation"
   ]
 }
