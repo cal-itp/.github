@@ -1,0 +1,8 @@
+{
+  "name": "Add Dependabot PRs to Project",
+  "description": "Automatically add Dependabot PRs to a project in Cal-ITP's GitHub org",
+  "iconName": "cal-itp-logo",
+  "categories": [
+    "Automation"
+  ]
+}
