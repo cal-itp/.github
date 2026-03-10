@@ -1,5 +1,3 @@
-# Add secret GH_PROJECT (the Project's ID) and allow org-wide secret GH_PROJECTS_TOKEN to the repo
-
 name: Add Issues to Project
 
 on:
@@ -12,5 +10,6 @@ jobs:
     steps:
       - uses: actions/add-to-project@main
         with:
-          project-url: https://github.com/orgs/cal-itp/projects/${{ secrets.GH_PROJECT }}
-          github-token: ${{ secrets.GH_PROJECTS_TOKEN }}
+          project-url: https://github.com/orgs/cal-itp/projects/[number]
+          # https://github.com/actions/add-to-project?tab=readme-ov-file#creating-a-pat-and-adding-it-to-your-repository
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
